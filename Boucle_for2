@@ -1,0 +1,7 @@
+#!/bin/bash
+liste=(professeur rama mouhamed pape abdou ibra astou)
+for maVar in ${liste[*]}; do
+    if [[ $maVar =~ ^[pra].* ]]; then
+         printf "mon Variable est %15s\n" $maVar
+    fi
+done

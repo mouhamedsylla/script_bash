@@ -1,0 +1,6 @@
+#!/bin/bash
+liste=(elet1 elet2 elet3 elet4)
+for maVar in ${liste[*]}
+do
+   printf "maVar est %-15s" $maVar
+done

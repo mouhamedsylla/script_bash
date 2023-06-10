@@ -1,0 +1,10 @@
+#!/bin/bash
+
+doub() {
+let y = $((x*x))
+}
+for((x=-10; x<=10; x++))
+do
+doub
+echo "Nous avons $y"
+done

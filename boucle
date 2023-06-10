@@ -1,0 +1,5 @@
+#!/bin/bash
+for arg in $*
+do
+   printf "Ceci est un argument: %15s\n" $arg
+done

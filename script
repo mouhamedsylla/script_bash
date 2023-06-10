@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "bonjour"
+echo "t'as réussit nooon!!!!"
+message=coucou
+echo $message mon ami
+echo "$message mon ami"
+echo $message 'mon ami'

@@ -1,0 +1,3 @@
+#!/bin/bash
+message=coucou
+echo ${message/c/s}

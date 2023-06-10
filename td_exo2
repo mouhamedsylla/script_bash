@@ -1,0 +1,11 @@
+#!/bin/bash
+nombre() {
+y = $((x*x))
+}
+x = -10
+Until test $x -gt 10
+do
+nombre
+echo "le carré de x est: $y"
+let x=+1
+done

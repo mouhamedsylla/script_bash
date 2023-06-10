@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Entrez le nom du fichier que vous voulez afficher"
+read fichier 
+IFS=$'\n'
+while read fichiers
+do
+    echo $fichiers
+done < $fichier

@@ -1,0 +1,27 @@
+#!/bin/bash
+nbre1=$1
+op=$2
+nbre2=$3
+case $op in
+	'+')
+	 	result=$(($nbre1+$nbre2))
+		read egal
+		if [[ $egal == '=' ]];then
+		echo $result
+		fi
+	;;
+	'-')
+		result=$(($nbre1-$nbre2))
+		read egal
+		if [[ $egal == '=' ]];then
+		echo $result
+		fi
+		;;
+	'*')
+		result=$(($nbre1*$nbre2))
+		read egal
+		if [[ $egal == '=' ]];then
+		echo $result
+		fi
+		;;
+esac

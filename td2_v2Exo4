@@ -1,0 +1,16 @@
+#!/bin/bash
+nbre=$1
+a=$2
+b=$3
+affTABLE() {
+
+
+	for((i=$a; i<=$b; i++))
+	do
+		result=$(($nbre*$i))
+		echo "$i * $nbre = $result"
+	done
+	}
+affTABLE
+
+

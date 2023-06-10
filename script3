@@ -1,0 +1,18 @@
+#!/bin/bash
+machin=truc
+test $machin = truct
+echo $?
+
+
+#Ceci affiche seulement ce qui suit echo
+echo test $machin = truct
+
+#Alors que ceci évalue la valeur de de vérité en comparant les deux valeurs 
+test $machin = tructtruc
+echo $?
+
+
+#test d'existence de fichier 
+read fichier
+[ -f $fichier ]
+echo $?

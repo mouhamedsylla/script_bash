@@ -1,0 +1,6 @@
+#!/bin/bash
+
+getmonfonction()
+{
+return 0
+}

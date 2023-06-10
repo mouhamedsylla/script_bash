@@ -1,0 +1,10 @@
+#!/bin/bash
+#passer des paramètres
+echo $1
+echo ${20}
+#retourne le nombre de paramètre
+echo $#
+#retoure la liste des paramètres
+echo $@
+#retourne la liste des paramètres mais dans une meme ligne
+echo $*

@@ -1,0 +1,16 @@
+#!/bin/bash
+essai=no
+
+case $essai in
+        'oui')
+                echo coucou
+                echo salut
+                ;;
+        "n*")
+                echo o....
+		;;
+   	 *)
+		echo i....
+		;;
+esac
+

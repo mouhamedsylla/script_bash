@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Entre le non du fichier à afficher"
+read fichier
+for fichier in $(cat $fichier); do
+    
+         printf "\n"$fichier
+done
+# Le commande cat sépare mot par mot le contenu fichier
